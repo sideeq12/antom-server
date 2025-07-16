@@ -14,9 +14,7 @@ from transformers import AutoModelForQuestionAnswering, AutoTokenizer, pipeline
 # Initialize FastAPI
 app = FastAPI()
 
-# if __name__ == "__main__":
-#     port = int(os.environ.get("PORT", 8000))  # use Render's or Railway's port or default to 8000
-#     uvicorn.run("main:app", host="0.0.0.0", port=port, reload=False)
+
 
 # CORS config (for frontend access)
 app.add_middleware(
