@@ -2,6 +2,7 @@ from fastapi import FastAPI, UploadFile, File, Form
 import fitz  # PyMuPDF
 import os
 from transformers import AutoTokenizer, AutoModelForQuestionAnswering
+
 import torch
 
 app = FastAPI()
