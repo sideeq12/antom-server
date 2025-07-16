@@ -1,1 +1,34 @@
 .env
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+build/
+dist/
+*.egg-info/
+
+# VSCode or JetBrains IDE
+.vscode/
+.idea/
+
+# OS stuff
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Uploads and runtime folders
+uploads/
+*.db
+.env
+
+# Uvicorn reload artifacts
+reload/
