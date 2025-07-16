@@ -10,7 +10,6 @@ langchain-core==0.3.68
 langchain-text-splitters==0.3.8
 sentence-transformers==2.2.2
 
-huggingface-hub==0.14.1
 transformers==4.53.2
 tokenizers==0.21.2
 
