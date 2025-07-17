@@ -1,3 +1,7 @@
+
+
+
+
 fastapi==0.116.0
 uvicorn==0.35.0
 pydantic==2.11.7
@@ -13,22 +17,14 @@ langchain==0.3.26
 langchain-community==0.3.27
 langchain-core==0.3.68
 langchain-text-splitters==0.3.8
-langsmith==0.4.6
 
 huggingface-hub==0.33.4
 transformers==4.53.2
 sentence-transformers==5.0.0
 tokenizers==0.21.2
-sentencepiece==0.2.0
-safetensors==0.5.3
 
 faiss-cpu==1.11.0
 
-pypdf==5.8.0
 pymupdf==1.26.3
 pdfplumber==0.11.7
-
-PyYAML==6.0.2
-typing-extensions==4.14.1
-typing-inspect==0.9.0
-typing-inspection==0.4.1
+pypdf==5.8.0
